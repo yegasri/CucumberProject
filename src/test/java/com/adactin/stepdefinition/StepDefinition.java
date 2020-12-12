@@ -93,7 +93,7 @@ public class StepDefinition extends BaseClass {
 
 	@Then("^User verifies whether HomePage navigates to Search Hotel Page$")
 	public void user_verifies_whether_HomePage_navigates_to_Search_Hotel_Page() throws Throwable {
-		//Assert.assertEquals("A", "a");
+		Assert.assertEquals("A", "a");
 
 	}
 

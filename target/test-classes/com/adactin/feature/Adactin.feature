@@ -19,6 +19,7 @@ Examples:
         |BBB|222|
         |sridhara|adhimary|   
    
+@RegressionTest   
 Scenario: Verify the user is able to search hotels
 
     When User selects one of "Sydney" as "value" in dropdown
@@ -29,7 +30,8 @@ Scenario: Verify the user is able to search hotels
     And User selects number of children in dropdown
     And User clicks on search button
     Then User verifies whether SearchHotel page navigates to Select Hotel Page
-    
+
+@SanityTest    
 Scenario: Verify the user is able to select hotel
 
     When User selects hotel checkbox
